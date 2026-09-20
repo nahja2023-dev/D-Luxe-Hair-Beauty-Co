@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>D'Luxe Hair & Beauty Co</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+   <link rel="icon" type="favicon.png" href="assests/favicon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{background-color: pink}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    </head>
+<style>
+.w3-sidebar a {
+  font-family:"montserrat",cursive
+}
+
+body,h1,h2,h3,h4,h5,h6,.w3-wide {
+  font-family:"montserrat",cursive
+}
+</style>
+
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-white
+w3-collapse w3-top"
+style="z-index:3;width:250px"
+id="mySidebar">
+
+  <div class="w3-container w3-display-container w3-padding-16">
+
+<button onclick="w3_close()"
+class="w3-button w3-hide-large w3-display-topright">
+×
+</button>
+
+<h3 class="w3-wide"><b>D'Luxe Beauty & Hair Co</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-pink"
+  style="font-weight:bold">
+
+  <a href="#" class="w3-bar-item w3-button">Bundles</a>
+<a href="#" class="w3-bar-item w3-button">Human Crochet Hair</a>
+<a onclick="myAccFunc()"
+href="javascript:void(0)"
+class="w3-button w3-block w3-white w3-left-align"
+id="myBtn">
+Wigs <i class="fa fa-caret-down"></i>
+</a><div id="demoAcc"
+class="w3-bar-block w3-hide w3-padding-large w3-medium">
+
+  <a href="#"
+  class="w3-bar-item w3-button w3-light-grey">
+  <i class="fa fa-caret-right w3-margin-right"></i>
+  250% Density Wigs
+  </a>
+
+    <a href="#" class="w3-bar-item w3-button">360 Glueless Wigs</a>
+  <a href="#" class="w3-bar-item w3-button">Colored Wigs</a>
+  <a href="#" class="w3-bar-item w3-button">HD Lace Wigs</a>
+</div>
+
+
+<a href="#" class="w3-bar-item w3-button">Bundles</a>
+<a href="#" class="w3-bar-item w3-button">Frontals & Closures</a>
+<a href="#" class="w3-bar-item w3-button">Beauty </a>
+<a href="#" class="w3-bar-item w3-button">Feautured Collection</a>
+
+  </div>
+
+<a href="#footer"
+class="w3-bar-item w3-button w3-padding">
+Contact </a>
+<a href="javascript:void(0)"
+class="w3-bar-item w3-button w3-padding"
+onclick="document.getElementById('newsletter').style.display='block'">
+Newsletter </a>
+
+<a href="#footer"
+class="w3-bar-item w3-button w3-padding">
+Subscribe </a>
+</nav>
+
+<!-- Top Menu on Small Screens -->
+
+<header class="w3-flex w3-top w3-hide-large
+w3-black w3-xlarge"
+style="align-items:center">
+
+ <div class="w3-padding-24 w3-wide">
+  LOGO
+  </div>
+  <button class="w3-button w3-padding-24"
+style="margin-left:auto"
+onclick="w3_open()"> <i class="fa fa-bars"></i> </button>
+
+</header>
+
+<!-- Overlay -->
+
+div class="w3-overlay w3-hide-large"
+onclick="w3_close()"
+style="cursor:pointer"
+title="Close side menu"
+id="myOverlay">
+</div>
+
+<!-- Page Content -->
+
+
+<main class="w3-main" style="margin-left:250px">
+
+<!-- Push content down on small screens -->
+
+<div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- Page Header -->
+
+
+<body ><header class="w3-flex w3-container w3-xlarge"
+style="align-items:center">
+
+  <p>Wigs</p>
+
+  <p style="margin-left:auto">
+    <i class="fa fa-shopping-cart w3-margin-right"></i>
+    <i class="fa fa-search"></i>
+  </p>
+
+</header>
+<div class="w3-display-container w3-container">
+
+<img src="assests/dluxe.jpg"
+alt="Wigs"
+style="width:100%">
+
+<div class="w3-display-topleft w3-text-white"
+  style="padding:24px 48px">
+<h1 class="w3-jumbo w3-hide-small">
+New arrivals
+</h1>
+
+<h1 class="w3-hide-large w3-hide-medium">
+New arrivals
+</h1>
+<h1 class="w3-hide-small">
+COLLECTION 2026
+</h1>
+
+<p>
+<a href="#Wigs"
+class="w3-button w3-black w3-padding-large w3-large">
+SHOP NOW
+</a>
+</p>
+</div>
+</div>
+
+<div class="w3-container w3-text-grey" id="jeans">
+<p>Hot & On Sale</p>
+<p>Grab Them Now</p>
+</div>
+
+<!-- Product Grid -->
+
+<section class="w3-grid w3-grayscale w3-padding"
+style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px">
+
+  <article>
+
+    <img src="assests/dluxe2.jpg"
+alt="Red lace front wig on model"
+style="width:100%">
+
+<p>
+30Inch Reddish Brownish 13x4 HD Body Lace Front Human Hair Wig Pre Plucked 180% Density<br>
+<b>$250.00</b>
+</p>
+  </article>
+    <article>
+
+<img src="assests/dluxe3.jpg"
+alt="Mega Ripped Jeans"
+style="width:100%">
+
+<p>
+30Inch Chocolate Brown 13x6 HD Lace Front Human Hair Wig 180% Density<br>
+<b>$130.00</b>
+</p>
+
+  </article>
+  <article>
+<div class="w3-display-container">
+
+  <img src="assests/dluxe4 (2).webp"
+  alt="Mega Ripped Jeans"
+  style="width:100%">
+
+  <span class="w3-tag w3-display-topleft">
+  New
+  </span>
+  <div class="w3-display-middle w3-display-hover">
+    <button class="w3-button w3-black">
+    Buy now
+    <i class="fa fa-shopping-cart"></i>
+    </button>
+  </div>
+
+</div>
+
+<p>13x6 Ombre Deep Wave Lace Front Wigs Human Hair Honey Blonde Wig 26inch
+<br>
+<b>$180.99</b>
+</p>
+</article>
+  <article>
+
+<img src="assests/dluxe5.webp"
+alt="Washed Skinny Jeans"
+style="width:100%">
+
+<p>
+Deep Wave Bob Wig Human Hair 13x4 HD Curly Pre Plucked Wear and Go Glueless Wig<br>
+<b>$195.00</b>
+</p>
+
+  </article>
+
+    <article>
+
+<img src="assests/dluxe6.jpg"
+alt="Washed Skinny Jeans"
+style="width:100%">
+
+<p>
+200 Density Human Hair 13x6 Lace Front Pre Plucked Straight Frontal 14Inch Bob <br>
+<b>$195.00</b>
+</p>
+
+  </article>
+   <article>
+
+<div class="w3-display-container">
+
+  <img src="assests/dluxe7.jpg"
+  alt="Vintage Skinny Jeans"
+  style="width:100%">
+
+  <span class="w3-tag w3-display-topleft">
+  Sale
+  </span>
+
+  <div class="w3-display-middle w3-display-hover">
+    <button class="w3-button w3-black">
+    Buy now
+    <i class="fa fa-shopping-cart"></i>
+    </button>
+  </div>
+
+</div>
+
+<p>180 Density HD transparent 13x4 Lace Frontal 100% Pre Plucked Human Hair
+<br>
+<b class="w3-text-red">$185.00</b>
+</p>
+
+  </article>
+
+  <article>
+
+<img src="assests/dluxe9.webp"
+alt="Vintage Skinny Jeans"
+style="width:100%">
+
+<p>
+<br> 613 180% Density,HD Transparent Lace Frontal Pre plucked Natural Hairline,Brazilian Virgin Human Hair
+<b>$200.00</b>
+</p>
+
+  </article>
+ 
+  <article>
+
+<img src="assests/dluxe10.webp"
+alt="Ripped Skinny Jeans"
+style="width:100%">
+
+<p>
+180 Densisty 8 Inch 613 Blonde Bob Wig Human Hair 13x4 HD Blonde Bob Lace Front Wigs Human Hair Pre Plucked Hairline <br>
+<b>$250.00</b>
+</p>
+
+  </article>
+ 
+</section>
+<!-- Subscribe -->
+
+<section class="w3-container w3-black w3-padding-32">
+
+<h1>Subscribe</h1>
+
+<p>To get special offers and VIP treatment:</p>
+
+<p>
+<input class="w3-input w3-border"
+type="email"
+placeholder="Enter e-mail">
+</p>
+<button type="button"
+class="w3-button w3-pink w3-margin-bottom">
+Subscribe </button>
+
+</section>
+<!-- Footer -->
+
+<footer id="footer"
+class="w3-grid w3-padding-64 w3-light-grey
+w3-small w3-center"
+style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px">
+
+<!-- Contact -->
+
+<div>
+
+<h4>Contact</h4>
+<p>Questions? Go ahead.</p>
+
+<form action="/action_page.php" target="_blank">
+
+<p>
+<input class="w3-input w3-border"
+type="text"
+placeholder="Name"
+name="Name"
+required>
+</p>
+
+<p>
+<input class="w3-input w3-border"
+type="text"
+placeholder="Subject"
+name="Subject"
+required>
+</p>
+
+<p>
+<input class="w3-input w3-border"
+type="text"
+placeholder="Message"
+name="Message"
+required>
+</p>
+
+<button type="submit"
+class="w3-button w3-block w3-black">
+Send </button>
+
+</form>
+
+</div>
+
+<!-- About -->
+
+
+</body><div>
+
+<h4>About</h4>
+
+<p><a href="#">About us</a></p>
+<p><a href="#">Support</a></p>
+<p><a href="#">Shipment</a></p>
+<p><a href="#">Payment</a></p>
+<p><a href="#">Return</a></p>
+<p><a href="#">Help</a></p>
+</div>
+
+<!-- Store -->
+
+<div class="w3-justify">
+
+<h4>D'Luxe Hair & Beauty Co</h4>
+
+<p>
+<i class="fa fa-fw fa-map-marker"></i>
+Memphis,Tn
+</p>
+
+<p>
+<i class="fa fa-fw fa-phone"></i>
+901-553-9033
+</p>
+
+<p>
+<i class="fa fa-fw fa-envelope"></i>
+DLuxe Hair & Beauty CO@gmail.com
+</p>
+
+<h4>We accept</h4>
+<p>
+<i class="fa fa-fw fa-cc-amex"></i>
+Green Dot Prepaid Visa
+</p>
+
+<p>
+<i class="fa fa-fw fa-credit-card"></i>
+Affirm
+</p>
+
+<p>
+<i class="fa fa-fw fa-credit-card"></i>
+Credit Card
+</p><p>
+<i class="fa fa-fw fa-credit-card"></i>
+Visa
+</p>
+
+<p class="w3-large">
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+<i class="fa fa-instagram w3-hover-opacity"></i>
+<i class="fa fa-snapchat w3-hover-opacity"></i>
+<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+<i class="fa fa-twitter w3-hover-opacity"></i>
+<i class="fa fa-linkedin w3-hover-opacity"></i>
+</p>
+
+</div>
+</footer>
+
+<div class="w3-black w3-center w3-padding-24">
+
+Powered by <a href="https://thistlefarms.org/"
+title="thistle farms"
+target="_blank"
+class="w3-hover-opacity">
+Thistle Farms</a>
+
+</div>
+
+</html>
